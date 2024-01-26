@@ -17,11 +17,9 @@
 		7201425B2B4E988D00E4BCDB /* UICVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720142592B4E988D00E4BCDB /* UICVC.xib */; };
 		7201425D2B4E99B200E4BCDB /* Tutorials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7201425C2B4E99B200E4BCDB /* Tutorials.storyboard */; };
 		7201425F2B4E99C000E4BCDB /* Programs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7201425E2B4E99C000E4BCDB /* Programs.storyboard */; };
-		720142612B4E99CD00E4BCDB /* Interview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720142602B4E99CD00E4BCDB /* Interview.storyboard */; };
 		720142632B4E99D800E4BCDB /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720142622B4E99D800E4BCDB /* Quiz.storyboard */; };
 		720142652B4E99F500E4BCDB /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720142642B4E99F500E4BCDB /* TutorialVC.swift */; };
 		720142672B4E9A0A00E4BCDB /* ProgramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720142662B4E9A0A00E4BCDB /* ProgramVC.swift */; };
-		720142692B4E9A1B00E4BCDB /* InterviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720142682B4E9A1B00E4BCDB /* InterviewVC.swift */; };
 		7201426B2B4E9A2D00E4BCDB /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201426A2B4E9A2D00E4BCDB /* QuizVC.swift */; };
 		7224F2062B4FE387001F5944 /* ProgramsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224F2042B4FE387001F5944 /* ProgramsTVC.swift */; };
 		7224F2072B4FE387001F5944 /* ProgramsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7224F2052B4FE387001F5944 /* ProgramsTVC.xib */; };
@@ -46,11 +44,9 @@
 		720142592B4E988D00E4BCDB /* UICVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICVC.xib; sourceTree = "<group>"; };
 		7201425C2B4E99B200E4BCDB /* Tutorials.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorials.storyboard; sourceTree = "<group>"; };
 		7201425E2B4E99C000E4BCDB /* Programs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Programs.storyboard; sourceTree = "<group>"; };
-		720142602B4E99CD00E4BCDB /* Interview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interview.storyboard; sourceTree = "<group>"; };
 		720142622B4E99D800E4BCDB /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		720142642B4E99F500E4BCDB /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
 		720142662B4E9A0A00E4BCDB /* ProgramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramVC.swift; sourceTree = "<group>"; };
-		720142682B4E9A1B00E4BCDB /* InterviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewVC.swift; sourceTree = "<group>"; };
 		7201426A2B4E9A2D00E4BCDB /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
 		7224F2042B4FE387001F5944 /* ProgramsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsTVC.swift; sourceTree = "<group>"; };
 		7224F2052B4FE387001F5944 /* ProgramsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgramsTVC.xib; sourceTree = "<group>"; };
@@ -120,8 +116,6 @@
 		720142532B4E957400E4BCDB /* Interview Questions */ = {
 			isa = PBXGroup;
 			children = (
-				720142602B4E99CD00E4BCDB /* Interview.storyboard */,
-				720142682B4E9A1B00E4BCDB /* InterviewVC.swift */,
 			);
 			path = "Interview Questions";
 			sourceTree = "<group>";
@@ -249,7 +243,6 @@
 				7224F2072B4FE387001F5944 /* ProgramsTVC.xib in Resources */,
 				7201425F2B4E99C000E4BCDB /* Programs.storyboard in Resources */,
 				720142482B4E94BB00E4BCDB /* Assets.xcassets in Resources */,
-				720142612B4E99CD00E4BCDB /* Interview.storyboard in Resources */,
 				7224F2102B4FFB34001F5944 /* ProgramDisp.storyboard in Resources */,
 				72934A0D2B51049B00A43129 /* TutorialTVC.xib in Resources */,
 				720142462B4E94B900E4BCDB /* Main.storyboard in Resources */,
@@ -267,7 +260,6 @@
 			files = (
 				7201425A2B4E988D00E4BCDB /* UICVC.swift in Sources */,
 				7201426B2B4E9A2D00E4BCDB /* QuizVC.swift in Sources */,
-				720142692B4E9A1B00E4BCDB /* InterviewVC.swift in Sources */,
 				7224F2062B4FE387001F5944 /* ProgramsTVC.swift in Sources */,
 				720142432B4E94B900E4BCDB /* ViewController.swift in Sources */,
 				7201423F2B4E94B900E4BCDB /* AppDelegate.swift in Sources */,

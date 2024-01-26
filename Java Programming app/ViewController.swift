@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     let ImageArray : [UIimages] =
     [
-        UIimages(image: "online-learning", name: "Tutorials"),
+        UIimages(image: "online-learning", name: "Tutorialss"),
         UIimages(image: "coding", name: "Programs"),
         UIimages(image: "interview", name: "Interview Questions"),
         UIimages(image: "quiz", name: "Quiz")
@@ -58,9 +58,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource{
             let vc = storyboard?.instantiateViewController(identifier: "ProgramVC") as! ProgramVC
             self.navigationController?.pushViewController(vc, animated: true)
             
-        case 2 :
-            let vc = storyboard?.instantiateViewController(identifier: "InterviewVC") as! InterviewVC
-            self.navigationController?.pushViewController(vc, animated: true)
+//        case 2 :
+//            let vc = storyboard?.instantiateViewController(identifier: "InterviewVC") as! InterviewVC
+//            self.navigationController?.pushViewController(vc, animated: true)
             
         case 3 :
             let vc = storyboard?.instantiateViewController(identifier: "QuizVC") as! QuizVC
